@@ -36,7 +36,7 @@ public class JDBC {
 //
     @Data
     @Accessors(chain = true)
-    public class Area{
+    public static class Area{
         String area_name;
         Integer area_id;
         Integer priority;
